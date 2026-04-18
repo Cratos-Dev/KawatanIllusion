@@ -46,7 +46,13 @@ getgenv().TARGET_BRAINROTS = {
     ["Jolly Jolly Sahur"] = true,
     ["Dug dug dug"] = true,
     ["Lovin Rose"] = true,
-    ["Fragola La La La"] = true
+    ["Fragola La La La"] = true,
+    ["Hydra Bunny"] = true,
+    ["Bunny and Eggy"] = true,
+    ["Arcadragon"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Cash or Card"] = true,
+    ["Rico Dinero"] = true
 }
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
